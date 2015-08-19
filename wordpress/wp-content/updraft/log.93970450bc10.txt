@@ -1,0 +1,365 @@
+0000.002 (0) Opened log file at time: Sun, 19 Jul 2015 03:17:51 +0000 on http://localhost:8888/wordpress
+0000.031 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.10.3 WP: 4.2.2 PHP: 5.5.14 (Darwin MacBook-de-Beatriz-Fuster-Gonzalez.local 14.1.0 Darwin Kernel Version 14.1.0: Thu Feb 26 19:26:47 PST 2015; root:xnu-2782.10.73~1/RELEASE_X86_64 x86_64) MySQL: 5.5.38 Server: Apache/2.2.26 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.6 PHP/5.5.14 mod_ssl/2.2.26 OpenSSL/0.9.8zc DAV/2 mod_perl/2.0.8 Perl/v5.18.2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.1M | 34.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.041 (0) Free space on disk containing Updraft's temporary directory: 3271.4 Mb
+0000.065 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.117 (0) Requesting semaphore lock (fd)
+0000.165 (0) Set semaphore last lock (fd) time to 2015-07-19 03:17:51
+0000.168 (0) Semaphore lock (fd) complete
+0000.178 (0) Backup run: resumption=0, nonce=93970450bc10, begun at=1437275871 (0s ago), job type=backup
+0000.182 (0) Scheduling a resumption (1) after 300 seconds (1437276171) in case this run gets aborted
+0000.241 (0) Checking if we have a zip executable available
+0000.242 (0) Testing: /usr/bin/zip
+0000.249 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.250 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.252 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.254 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.256 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.264 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.266 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.289 (0) Working binary zip found: /usr/bin/zip
+0000.293 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.295 (0) Creation of backups of directories: beginning
+0000.302 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0002.377 (0) Total entities for the zip file: 585 directories, 3907 files (0 skipped as non-modified), 67 Mb
+0002.385 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0002.391 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0002.397 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0002.403 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0002.429 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0002.442 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 Mb, 3907 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0004.591 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: size is now: 3.20 Mb
+0004.670 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 600 files added (on-disk size: 3254.6 Kb)
+0004.678 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 700 files added (on-disk size: 3254.6 Kb)
+0004.684 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 800 files added (on-disk size: 3254.6 Kb)
+0004.691 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 900 files added (on-disk size: 3254.6 Kb)
+0004.698 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 1000 files added (on-disk size: 3254.6 Kb)
+0004.700 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.8 Mb, 3907 files batched, 501 (1002) added so far); re-opening (prior size: 3254.6 Kb)
+0006.984 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: size is now: 7.80 Mb
+0007.195 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 1100 files added (on-disk size: 8013.3 Kb)
+0007.203 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 1200 files added (on-disk size: 8013.3 Kb)
+0007.209 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 1300 files added (on-disk size: 8013.3 Kb)
+0007.220 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 1400 files added (on-disk size: 8013.3 Kb)
+0007.226 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 1500 files added (on-disk size: 8013.3 Kb)
+0007.228 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 Mb, 3907 files batched, 501 (1503) added so far); re-opening (prior size: 8013.3 Kb)
+0009.614 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 1600 files added (on-disk size: 9577.5 Kb)
+0009.624 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 1700 files added (on-disk size: 9577.5 Kb)
+0009.631 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 1800 files added (on-disk size: 9577.5 Kb)
+0009.638 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 1900 files added (on-disk size: 9577.5 Kb)
+0009.644 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 2000 files added (on-disk size: 9577.5 Kb)
+0009.646 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 Mb, 3907 files batched, 501 (2004) added so far); re-opening (prior size: 9577.5 Kb)
+0012.059 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: size is now: 12.10 Mb
+0012.174 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 2100 files added (on-disk size: 12415.1 Kb)
+0012.195 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 2200 files added (on-disk size: 12415.1 Kb)
+0012.201 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 2300 files added (on-disk size: 12415.1 Kb)
+0012.213 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 2400 files added (on-disk size: 12415.1 Kb)
+0012.220 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 2500 files added (on-disk size: 12415.1 Kb)
+0012.222 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.3 Mb, 3907 files batched, 501 (2505) added so far); re-opening (prior size: 12415.1 Kb)
+0016.961 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: size is now: 17.60 Mb
+0017.259 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 2600 files added (on-disk size: 18021.1 Kb)
+0017.296 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 2700 files added (on-disk size: 18021.1 Kb)
+0017.317 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 2800 files added (on-disk size: 18021.1 Kb)
+0017.325 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 2900 files added (on-disk size: 18021.1 Kb)
+0017.331 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 3000 files added (on-disk size: 18021.1 Kb)
+0017.333 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 Mb, 3907 files batched, 501 (3006) added so far); re-opening (prior size: 18021.1 Kb)
+0019.169 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 3100 files added (on-disk size: 18856.8 Kb)
+0019.184 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 3200 files added (on-disk size: 18856.8 Kb)
+0019.191 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 3300 files added (on-disk size: 18856.8 Kb)
+0019.197 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 3400 files added (on-disk size: 18856.8 Kb)
+0019.204 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 3500 files added (on-disk size: 18856.8 Kb)
+0019.206 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.9 Mb, 3907 files batched, 501 (3507) added so far); re-opening (prior size: 18856.8 Kb)
+0022.287 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: size is now: 25.30 Mb
+0022.430 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 3600 files added (on-disk size: 25932.3 Kb)
+0022.438 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 3700 files added (on-disk size: 25932.3 Kb)
+0022.445 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 3800 files added (on-disk size: 25932.3 Kb)
+0022.452 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: 3900 files added (on-disk size: 25932.3 Kb)
+0024.651 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip.tmp: size is now: 30.50 Mb
+0025.141 (0) Created plugins zip (0) - 31265.4 Kb in 24.8 s (1260.2 Kb/s) (SHA1 checksum: b848f0ffe89bafa09a90c14f61c602ef888d7715)
+0025.145 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0025.515 (0) Total entities for the zip file: 60 directories, 512 files (0 skipped as non-modified), 8.4 Mb
+0025.522 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0025.530 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0025.536 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0025.543 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0025.572 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0025.589 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.3 Mb, 512 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0028.824 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-themes.zip.tmp: size is now: 5.00 Mb
+0029.349 (0) Created themes zip (0) - 5127.5 Kb in 4.2 s (1220.6 Kb/s) (SHA1 checksum: eeabb82a554b24721a3ebd29d6d1347b8e791cf7)
+0029.360 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0029.363 (0) Looking for candidates to back up in: /Applications/MAMP/htdocs/wordpress/wp-content/uploads
+0029.365 (0) finding files: .DS_Store: adding to list (1)
+0029.367 (0) finding files: 2015: adding to list (2)
+0029.369 (0) finding files: cache: adding to list (3)
+0029.371 (0) finding files: sp-client-document-manager: adding to list (4)
+0029.374 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0029.711 (0) Total entities for the zip file: 9 directories, 135 files (0 skipped as non-modified), 6 Mb
+0029.744 (0) Zip: backup_2015-07-19-0317_Living_Meki_93970450bc10-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0031.473 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-uploads.zip.tmp: size is now: 5.90 Mb
+0031.663 (0) Created uploads zip (0) - 6034.7 Kb in 2.3 s (2638.5 Kb/s) (SHA1 checksum: a6bb957942d5afbe19ce1abdedffac5032128c19)
+0031.668 (0) Beginning backup of other directories found in the content directory (index: 0)
+0031.669 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0031.671 (0) Looking for candidates to back up in: /Applications/MAMP/htdocs/wordpress/wp-content
+0031.673 (0) finding files: .DS_Store: adding to list (1)
+0031.674 (0) finding files: cache: skipping: excluded by options
+0031.676 (0) finding files: extensions: adding to list (2)
+0031.677 (0) finding files: index.php: adding to list (3)
+0031.679 (0) finding files: logs: adding to list (4)
+0031.681 (0) finding files: plugins: skipping: this is the plugins directory
+0031.682 (0) finding files: themes: skipping: this is the themes directory
+0031.683 (0) finding files: updraft: skipping: this is the updraft directory
+0031.685 (0) finding files: upgrade: skipping: excluded by options
+0031.686 (0) finding files: uploads: skipping: this is the uploads directory
+0031.692 (0) Total entities for the zip file: 5 directories, 2 files (0 skipped as non-modified), 0 Mb
+0031.744 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-others.zip.tmp: size is now: 0.00 Mb
+0031.753 (0) Created others zip (0) - 3 Kb in 0.1 s (45.8 Kb/s) (SHA1 checksum: 71f52c070bc5f9e1103d622dd901dffa9c970ba8)
+0031.800 (0) Saving backup status to database (elements: 8)
+0031.806 (0) Beginning creation of database dump (WordPress DB)
+0031.950 (0) Table wp_options: Total expected rows (approximate): 384
+0032.035 (0) Table wp_options: Total rows added: 447 in 0.08 seconds
+0032.038 (0) Table wp_options: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_options.table.gz - 122.5 Kb)
+0032.087 (0) Table wp_users: Total expected rows (approximate): 1
+0032.094 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0032.096 (0) Table wp_users: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_users.table.gz - 0.5 Kb)
+0032.104 (0) Table wp_usermeta: Total expected rows (approximate): 37
+0032.110 (0) Table wp_usermeta: Total rows added: 37 in 0.00 seconds
+0032.112 (0) Table wp_usermeta: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_usermeta.table.gz - 1.6 Kb)
+0032.118 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0032.122 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0032.124 (0) Table wp_commentmeta: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_commentmeta.table.gz - 0.4 Kb)
+0032.131 (0) Table wp_comments: Total expected rows (approximate): 0
+0032.135 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0032.137 (0) Table wp_comments: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_comments.table.gz - 0.5 Kb)
+0032.143 (0) Table wp_links: Total expected rows (approximate): 0
+0032.148 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0032.150 (0) Table wp_links: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_links.table.gz - 0.4 Kb)
+0032.158 (0) Table wp_postmeta: Total expected rows (approximate): 777
+0032.198 (0) Table wp_postmeta: Total rows added: 806 in 0.04 seconds
+0032.202 (0) Table wp_postmeta: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_postmeta.table.gz - 11.6 Kb)
+0032.214 (0) Table wp_posts: Total expected rows (approximate): 2044
+0032.616 (0) Table wp_posts: Total rows added: 895 in 0.40 seconds
+0032.618 (0) Table wp_posts: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_posts.table.gz - 147.4 Kb)
+0032.625 (0) Table wp_term_relationships: Total expected rows (approximate): 30
+0032.630 (0) Table wp_term_relationships: Total rows added: 30 in 0.00 seconds
+0032.632 (0) Table wp_term_relationships: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_term_relationships.table.gz - 0.4 Kb)
+0032.638 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0032.642 (0) Table wp_term_taxonomy: Total rows added: 3 in 0.00 seconds
+0032.644 (0) Table wp_term_taxonomy: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_term_taxonomy.table.gz - 0.4 Kb)
+0032.651 (0) Table wp_terms: Total expected rows (approximate): 3
+0032.657 (0) Table wp_terms: Total rows added: 3 in 0.00 seconds
+0032.659 (0) Table wp_terms: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_terms.table.gz - 0.4 Kb)
+0032.662 (0) Skipping table (lacks our prefix (wp_)): TABLE 35
+0032.664 (0) Skipping table (lacks our prefix (wp_)): applicants_db
+0032.665 (0) Skipping table (lacks our prefix (wp_)): becados_db
+0032.667 (0) Skipping table (lacks our prefix (wp_)): candidatosbeca_db
+0032.669 (0) Skipping table (lacks our prefix (wp_)): cinema_db
+0032.670 (0) Skipping table (lacks our prefix (wp_)): games_db
+0032.672 (0) Skipping table (lacks our prefix (wp_)): girls_club_db
+0032.674 (0) Skipping table (lacks our prefix (wp_)): prueba
+0032.676 (0) Skipping table (lacks our prefix (wp_)): sponsors_db
+0032.678 (0) Skipping table (lacks our prefix (wp_)): sports_db
+0032.679 (0) Skipping table (lacks our prefix (wp_)): volunteers_db
+0032.684 (0) Table wp_a3_exclude_email_subject: Total expected rows (approximate): 0
+0032.688 (0) Table wp_a3_exclude_email_subject: Total rows added: 0 in 0.00 seconds
+0032.690 (0) Table wp_a3_exclude_email_subject: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_a3_exclude_email_subject.table.gz - 0.3 Kb)
+0032.697 (0) Table wp_cf7dbplugin_st: Total expected rows (approximate): 11
+0032.722 (0) Table wp_cf7dbplugin_st: Total rows added: 11 in 0.02 seconds
+0032.724 (0) Table wp_cf7dbplugin_st: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_cf7dbplugin_st.table.gz - 0.4 Kb)
+0032.730 (0) Table wp_cf7dbplugin_submits: Total expected rows (approximate): 85
+0032.740 (0) Table wp_cf7dbplugin_submits: Total rows added: 85 in 0.01 seconds
+0032.742 (0) Table wp_cf7dbplugin_submits: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_cf7dbplugin_submits.table.gz - 1.5 Kb)
+0032.749 (0) Table wp_cftemail_forms: Total expected rows (approximate): 1
+0032.758 (0) Table wp_cftemail_forms: Total rows added: 1 in 0.01 seconds
+0032.760 (0) Table wp_cftemail_forms: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_cftemail_forms.table.gz - 1.3 Kb)
+0032.768 (0) Table wp_cftemail_messages: Total expected rows (approximate): 0
+0032.772 (0) Table wp_cftemail_messages: Total rows added: 0 in 0.00 seconds
+0032.774 (0) Table wp_cftemail_messages: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_cftemail_messages.table.gz - 0.4 Kb)
+0032.781 (0) Table wp_newsletter: Total expected rows (approximate): 2
+0032.790 (0) Table wp_newsletter: Total rows added: 2 in 0.01 seconds
+0032.793 (0) Table wp_newsletter: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_newsletter.table.gz - 0.7 Kb)
+0032.812 (0) Table wp_newsletter_emails: Total expected rows (approximate): 2
+0032.819 (0) Table wp_newsletter_emails: Total rows added: 2 in 0.00 seconds
+0032.821 (0) Table wp_newsletter_emails: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_newsletter_emails.table.gz - 1.8 Kb)
+0032.828 (0) Table wp_newsletter_stats: Total expected rows (approximate): 0
+0032.833 (0) Table wp_newsletter_stats: Total rows added: 0 in 0.00 seconds
+0032.834 (0) Table wp_newsletter_stats: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_newsletter_stats.table.gz - 0.4 Kb)
+0032.841 (0) Table wp_participants_database: Total expected rows (approximate): 0
+0032.847 (0) Table wp_participants_database: Total rows added: 0 in 0.00 seconds
+0032.849 (0) Table wp_participants_database: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_participants_database.table.gz - 0.5 Kb)
+0032.856 (0) Table wp_participants_database_fields: Total expected rows (approximate): 19
+0032.863 (0) Table wp_participants_database_fields: Total rows added: 19 in 0.01 seconds
+0032.865 (0) Table wp_participants_database_fields: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_participants_database_fields.table.gz - 1.3 Kb)
+0032.872 (0) Table wp_participants_database_groups: Total expected rows (approximate): 4
+0032.877 (0) Table wp_participants_database_groups: Total rows added: 4 in 0.00 seconds
+0032.879 (0) Table wp_participants_database_groups: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_participants_database_groups.table.gz - 0.5 Kb)
+0032.886 (0) Table wp_sp_cu: Total expected rows (approximate): 2
+0032.891 (0) Table wp_sp_cu: Total rows added: 2 in 0.00 seconds
+0032.893 (0) Table wp_sp_cu: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_sp_cu.table.gz - 0.5 Kb)
+0032.900 (0) Table wp_sp_cu_cats: Total expected rows (approximate): 0
+0032.904 (0) Table wp_sp_cu_cats: Total rows added: 0 in 0.00 seconds
+0032.907 (0) Table wp_sp_cu_cats: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_sp_cu_cats.table.gz - 0.3 Kb)
+0032.915 (0) Table wp_sp_cu_form_entries: Total expected rows (approximate): 0
+0032.920 (0) Table wp_sp_cu_form_entries: Total rows added: 0 in 0.00 seconds
+0032.922 (0) Table wp_sp_cu_form_entries: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_sp_cu_form_entries.table.gz - 0.3 Kb)
+0032.930 (0) Table wp_sp_cu_forms: Total expected rows (approximate): 0
+0032.934 (0) Table wp_sp_cu_forms: Total rows added: 0 in 0.00 seconds
+0032.937 (0) Table wp_sp_cu_forms: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_sp_cu_forms.table.gz - 0.4 Kb)
+0032.944 (0) Table wp_sp_cu_groups: Total expected rows (approximate): 0
+0032.948 (0) Table wp_sp_cu_groups: Total rows added: 0 in 0.00 seconds
+0032.950 (0) Table wp_sp_cu_groups: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_sp_cu_groups.table.gz - 0.3 Kb)
+0032.957 (0) Table wp_sp_cu_groups_assign: Total expected rows (approximate): 0
+0032.962 (0) Table wp_sp_cu_groups_assign: Total rows added: 0 in 0.00 seconds
+0032.964 (0) Table wp_sp_cu_groups_assign: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_sp_cu_groups_assign.table.gz - 0.3 Kb)
+0032.971 (0) Table wp_sp_cu_project: Total expected rows (approximate): 6
+0032.975 (0) Table wp_sp_cu_project: Total rows added: 6 in 0.00 seconds
+0032.977 (0) Table wp_sp_cu_project: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_sp_cu_project.table.gz - 0.4 Kb)
+0032.984 (0) Table wp_wpdatatables: Total expected rows (approximate): 9
+0032.991 (0) Table wp_wpdatatables: Total rows added: 9 in 0.01 seconds
+0033.019 (0) Table wp_wpdatatables: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_wpdatatables.table.gz - 0.8 Kb)
+0033.060 (0) Table wp_wpdatatables_columns: Total expected rows (approximate): 188
+0033.096 (0) Table wp_wpdatatables_columns: Total rows added: 188 in 0.03 seconds
+0033.098 (0) Table wp_wpdatatables_columns: finishing file (backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_wpdatatables_columns.table.gz - 3.2 Kb)
+0033.105 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_options.table.gz (1/42): adding to final database dump
+0033.167 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_users.table.gz (2/42): adding to final database dump
+0033.170 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_usermeta.table.gz (3/42): adding to final database dump
+0033.172 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_commentmeta.table.gz (4/42): adding to final database dump
+0033.174 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_comments.table.gz (5/42): adding to final database dump
+0033.176 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_links.table.gz (6/42): adding to final database dump
+0033.177 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_postmeta.table.gz (7/42): adding to final database dump
+0033.190 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_posts.table.gz (8/42): adding to final database dump
+0033.380 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_term_relationships.table.gz (9/42): adding to final database dump
+0033.382 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_term_taxonomy.table.gz (10/42): adding to final database dump
+0033.384 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_terms.table.gz (11/42): adding to final database dump
+0033.386 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_a3_exclude_email_subject.table.gz (12/42): adding to final database dump
+0033.387 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_cf7dbplugin_st.table.gz (13/42): adding to final database dump
+0033.389 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_cf7dbplugin_submits.table.gz (14/42): adding to final database dump
+0033.392 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_cftemail_forms.table.gz (15/42): adding to final database dump
+0033.394 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_cftemail_messages.table.gz (16/42): adding to final database dump
+0033.396 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_newsletter.table.gz (17/42): adding to final database dump
+0033.398 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_newsletter_emails.table.gz (18/42): adding to final database dump
+0033.400 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_newsletter_stats.table.gz (19/42): adding to final database dump
+0033.402 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_participants_database.table.gz (20/42): adding to final database dump
+0033.404 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_participants_database_fields.table.gz (21/42): adding to final database dump
+0033.407 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_participants_database_groups.table.gz (22/42): adding to final database dump
+0033.409 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_sp_cu.table.gz (23/42): adding to final database dump
+0033.410 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_sp_cu_cats.table.gz (24/42): adding to final database dump
+0033.412 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_sp_cu_form_entries.table.gz (25/42): adding to final database dump
+0033.414 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_sp_cu_forms.table.gz (26/42): adding to final database dump
+0033.415 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_sp_cu_groups.table.gz (27/42): adding to final database dump
+0033.419 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_sp_cu_groups_assign.table.gz (28/42): adding to final database dump
+0033.421 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_sp_cu_project.table.gz (29/42): adding to final database dump
+0033.423 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_wpdatatables.table.gz (30/42): adding to final database dump
+0033.425 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db-table-wp_wpdatatables_columns.table.gz (31/42): adding to final database dump
+0033.429 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db.gz: finished writing out complete database file (272 Kb)
+0033.441 (0) Total database tables backed up: 31 (backup_2015-07-19-0317_Living_Meki_93970450bc10-db.gz, size: 301037, checksum (SHA1): ab043153a23dfd30d9b393283c11b4ebaeb14104)
+0033.446 (0) Saving backup history
+0033.453 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0033.455 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0033.457 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0033.458 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-others.zip: others: This file has not yet been successfully uploaded: will queue
+0033.459 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db.gz: db: This file has not yet been successfully uploaded: will queue
+0033.464 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0033.469 (0) Cloud backup selection (1/1): googledrive (last)
+0033.471 (0) Beginning dispatch of backup to remote (googledrive)
+0033.501 (0) Google Drive: requesting access token: client_id=465583468660-o147eqr8f65t3bkcdftr8on97c4fu5ak.apps.googleusercontent.com
+0033.794 (0) Google Drive: successfully obtained access token
+0034.662 (0) Google Drive quota usage: used=3989.4 Mb, total=17408 Mb, available=13418.6 Mb
+0034.664 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip: Attempting to upload to Google Drive (into folder id: 0B1ENKIEZOUfeLTdhUXdiMEQ4b28)
+0035.501 (0) Googledrive chunked upload: 3.3 % uploaded (1048576)
+0035.699 (0) Googledrive chunked upload: 6.6 % uploaded (2097152)
+0036.296 (0) Googledrive chunked upload: 9.8 % uploaded (3145728)
+0037.132 (0) Googledrive chunked upload: 13.1 % uploaded (4194304)
+0037.309 (0) Googledrive chunked upload: 16.4 % uploaded (5242880)
+0037.476 (0) Googledrive chunked upload: 19.7 % uploaded (6291456)
+0037.685 (0) Googledrive chunked upload: 22.9 % uploaded (7340032)
+0038.127 (0) Googledrive chunked upload: 26.2 % uploaded (8388608)
+0039.151 (0) Googledrive chunked upload: 29.5 % uploaded (9437184)
+0039.907 (0) Googledrive chunked upload: 32.8 % uploaded (10485760)
+0040.577 (0) Googledrive chunked upload: 36 % uploaded (11534336)
+0040.764 (0) Googledrive chunked upload: 39.3 % uploaded (12582912)
+0041.215 (0) Googledrive chunked upload: 42.6 % uploaded (13631488)
+0041.399 (0) Googledrive chunked upload: 45.9 % uploaded (14680064)
+0041.594 (0) Googledrive chunked upload: 49.1 % uploaded (15728640)
+0041.784 (0) Googledrive chunked upload: 52.4 % uploaded (16777216)
+0041.971 (0) Googledrive chunked upload: 55.7 % uploaded (17825792)
+0042.169 (0) Googledrive chunked upload: 59 % uploaded (18874368)
+0042.364 (0) Googledrive chunked upload: 62.2 % uploaded (19922944)
+0042.571 (0) Googledrive chunked upload: 65.5 % uploaded (20971520)
+0042.760 (0) Googledrive chunked upload: 68.8 % uploaded (22020096)
+0043.227 (0) Googledrive chunked upload: 72.1 % uploaded (23068672)
+0043.426 (0) Googledrive chunked upload: 75.3 % uploaded (24117248)
+0044.142 (0) Googledrive chunked upload: 78.6 % uploaded (25165824)
+0044.695 (0) Googledrive chunked upload: 81.9 % uploaded (26214400)
+0044.928 (0) Googledrive chunked upload: 85.2 % uploaded (27262976)
+0045.273 (0) Googledrive chunked upload: 88.4 % uploaded (28311552)
+0045.480 (0) Googledrive chunked upload: 91.7 % uploaded (29360128)
+0046.273 (0) Googledrive chunked upload: 95 % uploaded (30408704)
+0046.452 (0) Googledrive chunked upload: 98.3 % uploaded (31457280)
+0047.376 (0) Googledrive chunked upload: 100 % uploaded (31457280)
+0047.382 (0) OK: Archive backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip uploaded to Google Drive in 12.72 seconds
+0047.386 (0) Recording as successfully uploaded: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip (0c7e249b317c2f84401b8f9f682bc231)
+0047.395 (0) Deleting local file: backup_2015-07-19-0317_Living_Meki_93970450bc10-plugins.zip: OK
+0047.849 (0) Google Drive quota usage: used=4020 Mb, total=17408 Mb, available=13388 Mb
+0047.851 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-themes.zip: Attempting to upload to Google Drive (into folder id: 0B1ENKIEZOUfeLTdhUXdiMEQ4b28)
+0048.587 (0) Googledrive chunked upload: 20 % uploaded (1048576)
+0048.796 (0) Googledrive chunked upload: 39.9 % uploaded (2097152)
+0049.508 (0) Googledrive chunked upload: 59.9 % uploaded (3145728)
+0049.864 (0) Googledrive chunked upload: 79.9 % uploaded (4194304)
+0050.291 (0) Googledrive chunked upload: 99.9 % uploaded (5242880)
+0051.055 (0) Googledrive chunked upload: 100 % uploaded (5242880)
+0051.062 (0) OK: Archive backup_2015-07-19-0317_Living_Meki_93970450bc10-themes.zip uploaded to Google Drive in 3.21 seconds
+0051.066 (0) Recording as successfully uploaded: backup_2015-07-19-0317_Living_Meki_93970450bc10-themes.zip (424a457db8907a9e412c4d796f89f186)
+0051.072 (0) Deleting local file: backup_2015-07-19-0317_Living_Meki_93970450bc10-themes.zip: OK
+0051.270 (0) Google Drive quota usage: used=4025 Mb, total=17408 Mb, available=13383 Mb
+0051.272 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B1ENKIEZOUfeLTdhUXdiMEQ4b28)
+0051.622 (0) Googledrive chunked upload: 17 % uploaded (1048576)
+0052.149 (0) Googledrive chunked upload: 33.9 % uploaded (2097152)
+0052.945 (0) Googledrive chunked upload: 50.9 % uploaded (3145728)
+0053.131 (0) Googledrive chunked upload: 67.9 % uploaded (4194304)
+0053.968 (0) Googledrive chunked upload: 84.8 % uploaded (5242880)
+0055.432 (0) Googledrive chunked upload: 100 % uploaded (5242880)
+0055.438 (0) OK: Archive backup_2015-07-19-0317_Living_Meki_93970450bc10-uploads.zip uploaded to Google Drive in 4.16 seconds
+0055.442 (0) Recording as successfully uploaded: backup_2015-07-19-0317_Living_Meki_93970450bc10-uploads.zip (27f6309ba412b5bd11e5f0f372dc021a)
+0055.448 (0) Deleting local file: backup_2015-07-19-0317_Living_Meki_93970450bc10-uploads.zip: OK
+0055.631 (0) Google Drive quota usage: used=4030.9 Mb, total=17408 Mb, available=13377.1 Mb
+0055.632 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-others.zip: Attempting to upload to Google Drive (into folder id: 0B1ENKIEZOUfeLTdhUXdiMEQ4b28)
+0056.402 (0) Googledrive chunked upload: 100 % uploaded
+0056.409 (0) OK: Archive backup_2015-07-19-0317_Living_Meki_93970450bc10-others.zip uploaded to Google Drive in 0.77 seconds
+0056.413 (0) Recording as successfully uploaded: backup_2015-07-19-0317_Living_Meki_93970450bc10-others.zip (7ce2f57acd4f65c97ed804a51c213b62)
+0056.418 (0) Deleting local file: backup_2015-07-19-0317_Living_Meki_93970450bc10-others.zip: OK
+0056.645 (0) Google Drive quota usage: used=4030.9 Mb, total=17408 Mb, available=13377.1 Mb
+0056.647 (0) backup_2015-07-19-0317_Living_Meki_93970450bc10-db.gz: Attempting to upload to Google Drive (into folder id: 0B1ENKIEZOUfeLTdhUXdiMEQ4b28)
+0057.472 (0) Googledrive chunked upload: 100 % uploaded
+0057.478 (0) OK: Archive backup_2015-07-19-0317_Living_Meki_93970450bc10-db.gz uploaded to Google Drive in 0.83 seconds
+0057.482 (0) Recording as successfully uploaded: backup_2015-07-19-0317_Living_Meki_93970450bc10-db.gz (d60a4656e26aca8a5f3dd940efb19c05)
+0057.488 (0) Deleting local file: backup_2015-07-19-0317_Living_Meki_93970450bc10-db.gz: OK
+0057.492 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0057.494 (0) Number of backup sets in history: 3
+0057.497 (0) Examining backup set with datestamp: 1437275871 (Jul 19 2015 03:17:51)
+0057.649 (0) 1437275871: this backup set remains non-empty (1/1); will retain in history
+0057.651 (0) Examining backup set with datestamp: 1437251178 (Jul 18 2015 20:26:18)
+0057.809 (0) 1437251178: this backup set remains non-empty (1/1); will retain in history
+0057.811 (0) Examining backup set with datestamp: 1437238498 (Jul 18 2015 16:54:58)
+0057.812 (0) 1437238498: db: this set includes a database (backup_2015-07-18-1654_Living_Meki_81225703103c-db.gz); db count is now 3
+0057.814 (0) 1437238498: db: over retain limit (2); will delete this database
+0057.815 (0) Delete file: backup_2015-07-18-1654_Living_Meki_81225703103c-db.gz, service=googledrive
+0058.235 (0) backup_2015-07-18-1654_Living_Meki_81225703103c-db.gz: Deletion successful
+0058.239 (0) plugins: 1437238498: over retain limit (2); will delete this file (backup_2015-07-18-1654_Living_Meki_81225703103c-plugins.zip)
+0058.241 (0) themes: 1437238498: over retain limit (2); will delete this file (backup_2015-07-18-1654_Living_Meki_81225703103c-themes.zip)
+0058.242 (0) uploads: 1437238498: over retain limit (2); will delete this file (backup_2015-07-18-1654_Living_Meki_81225703103c-uploads.zip)
+0058.244 (0) others: 1437238498: over retain limit (2); will delete this file (backup_2015-07-18-1654_Living_Meki_81225703103c-others.zip)
+0058.245 (0) Delete file: backup_2015-07-18-1654_Living_Meki_81225703103c-plugins.zip, service=googledrive
+0058.246 (0) Delete file: backup_2015-07-18-1654_Living_Meki_81225703103c-themes.zip, service=googledrive
+0058.248 (0) Delete file: backup_2015-07-18-1654_Living_Meki_81225703103c-uploads.zip, service=googledrive
+0058.249 (0) Delete file: backup_2015-07-18-1654_Living_Meki_81225703103c-others.zip, service=googledrive
+0058.827 (0) backup_2015-07-18-1654_Living_Meki_81225703103c-others.zip: Deletion successful
+0059.118 (0) backup_2015-07-18-1654_Living_Meki_81225703103c-uploads.zip: Deletion successful
+0059.411 (0) backup_2015-07-18-1654_Living_Meki_81225703103c-themes.zip: Deletion successful
+0060.177 (0) backup_2015-07-18-1654_Living_Meki_81225703103c-plugins.zip: Deletion successful
+0060.182 (0) 1437238498: this backup set is now empty; will remove from history
+0060.183 (0) 1437238498: deleting log file (log.81225703103c.txt)
+0060.215 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0060.219 (0) Resume backup (93970450bc10, 0): finish run
+0060.223 (0) Decremented the semaphore (fd) by 1
+0060.225 (0) Semaphore (fd) unlocked
+0060.226 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0060.264 (0) No email will/can be sent - the user has not configured an email address.
+0060.285 (0) The backup apparently succeeded and is now complete

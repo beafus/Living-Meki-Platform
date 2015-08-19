@@ -1,0 +1,81 @@
+/*
+Theme Name: Twenty Thirteen Child
+Description: Twenty Thirteen Child Theme
+Author: Mike Simmons
+Template: twentythirteen
+*/
+
+
+
+ 
+/*Your theme customization codes go below this line*/
+
+
+/* @import url("../twentythirteen/style.css");*/
+
+.entry-header, .entry-content, .entry-summary, .entry-meta {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+
+
+
+/*
+navigation
+*/
+.nav-menu li a {
+	color: white !important;
+	font-weight: bold;
+	display: block;
+	font-size: 15px;
+	line-height: 1;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+.nav-menu .sub-menu,
+.nav-menu .children {
+	background-color: #627295;
+	border: 2px solid #f7f5e7;
+	border-top: 0;
+	padding: 0;
+	position: absolute;
+	left: -2px;
+	z-index: 99999;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	clip: rect(1px,1px,1px,1px);
+}
+
+ul.nav-menu ul a,
+.nav-menu ul ul a {
+	color: red;
+	margin: 0;
+	width: 200px;
+}
+
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+ul.nav-menu ul a:focus,
+.nav-menu ul ul a:focus {
+	background-color: #B7745F;
+}
+
+.navbar {
+	background-color: #56627F;
+	margin: 0 auto;
+	max-width: 1600px;
+	width: 100%;
+}
+
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
+	color: red;
+	font-style: italic;
+	background-color: #B7745F;
+}
